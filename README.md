@@ -20,3 +20,9 @@
         在 Swift 语言中可以调用全局的 assert 函数来增加一个断言，这里的全局意思是你可以将断言放在你程序的任何一个地方，程序在执行到 assert 时会判断其中的逻辑条件表达式参数是否为 true。
         a.如果条件判断为 true，代码运行会继续进行。
         b.如果条件判断为 false，程序将终止。
+        
+    3） Any和AnyObject
+        Swift为不确定点类型，提供了两种特殊类型别名：AnyObject和Any。其中AnyObject可以代表任何class类型点实例，Any则可以表示任何类型，除了方法（function types）。
+        
+    4） typealias
+        typealias是用来为已经存在的类型重新定义名字的,通过命名,可以使代码变得更加清晰。
